@@ -209,7 +209,8 @@ $ python ./openspeech_cli/hydra_train.py \
     lr_scheduler=warmup_reduce_lr_on_plateau \
     trainer=tpu \
     criterion=cross_entropy
-```
+```  
+Note : if dataset.test_manifest_dir is not specified it will generated.  
    
 You can simply train with AISHELL-1 dataset like below:
   
